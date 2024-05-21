@@ -8,7 +8,7 @@ import './../styles/gradientAnimation.css'
 
 function Footer() {
   return (
-    <div className="footer  text-center  p-5 my-32 md:my-0 w-full h-fit md:p-20-z-10  flex md:justify-center max-w-8xl items-center  shadow-lg "   >
+    <div className="footer  text-center mr-2  p-5 my-32 md:my-0 w-full h-fit md:p-20-z-10  flex md:justify-center max-w-8xl items-center  shadow-lg "   >
 
       <div className='   backdrop-blur-sm bg-[#0000006]  flex flex-col w-fit h-fit items-center justify-center p-1 md:p-10 '>
         <div className=''>
