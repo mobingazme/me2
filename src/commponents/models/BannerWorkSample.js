@@ -26,9 +26,9 @@ function BannerWorkSample() {
                     <h4 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" className='text-gradient-animation text-3xl py-2'>_ماه بانو</h4>
                     <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-sine" className='text-center text-sm text-white'>این وبسایت فروشگاهی با استفاده از آخرین تکنولوژی‌های فرانت‌اند شامل <span className='text-gradient text-sm '>Next.js 14  (App Router)</span><br />, Zustand, animate.css, Yup, Swiper, Tailwind CSS, و Formik طراحی و پیاده‌سازی شده است تا تجربه خرید آنلاین بی‌نظیری برای مشتریان فراهم آورد. با کاربری آسان و تجربه کاربری پویا، این پلتفرم به کاربران امکان می‌دهد به راحتی محصولات مورد نظر خود را جستجو، مشاهده و خریداری کنند.</p>
                     <Link href={'https://github.com/mobingazme/mahbano'}>
-                        <div className=' text-gradient-animation duration-700  flex cursor-pointer ease-in transition-all transform hover:translate-x-[-10px] items-center pt-3 w-32 justify-between '>
-                            <h5 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" className=''>دانلود از github</h5>
-                            <Icon data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" className='w-8 h-fit' icon="mdi:github" />
+                        <div className='  duration-700  flex cursor-pointer ease-in transition-all transform hover:translate-x-[-10px] items-center pt-3 w-32 justify-between '>
+                            <h5 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" className='text-gradient-animation'>دانلود از github</h5>
+                            <Icon data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" className='w-8 h-fit text-gradient-animation' icon="mdi:github" />
                         </div>
                     </Link>
                 </div>
@@ -51,9 +51,9 @@ function BannerWorkSample() {
                     <h4 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine"  className='text-gradient-animation text-3xl py-2'>_mobin </h4>
                     <p data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-sine"  className='text-center text-sm text-white'>این وبسایت شخصی با استفاده از آخرین تکنولوژی‌های فرانت‌اند شامل <span className='text-gradient text-sm '>Next.js 14  (App Router)</span><br />, , animate.css, , Swiper, Tailwind,lottie-react,,aos,react-scroll ...   استفاده کردم  و این وبسایت تک صفحه ای رو ب منظور معرفی خود ومهارت هایم  این قالب رو طراحی و توسعه داده ام  .</p>
                     <Link href={'https://github.com/mobingazme/me'}>
-                        <div className=' text-gradient-animation duration-700  flex cursor-pointer ease-in items-center transition-all transform hover:translate-x-[-10px]  pt-3 w-32 justify-between '>
-                            <h5 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" className=''>دانلود از github</h5>
-                            <Icon data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" className='w-8 h-fit ' icon="mdi:github" />
+                        <div className='  duration-700  flex cursor-pointer ease-in items-center transition-all transform hover:translate-x-[-10px]  pt-3 w-32 justify-between '>
+                            <h5 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" className='text-gradient-animation'>دانلود از github</h5>
+                            <Icon data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" className='w-8 h-fit text-gradient-animation' icon="mdi:github" />
                         </div>
                     </Link>
                 </div>

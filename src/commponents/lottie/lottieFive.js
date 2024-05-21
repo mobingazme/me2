@@ -4,7 +4,7 @@ import animationData from '/public/animation/Animation - Five.json'; // مسیر
 //footer
 const SvgFive = () => {
   return (
-    <div className=' p-1 w-[350px] h-[350px] ' >
+    <div className=' p-1 w-[330px] h-[350px] ' >
       <Lottie animationData={animationData} />
     </div>
   );

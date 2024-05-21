@@ -7,7 +7,7 @@ import './../styles/gradientAnimation.css'
 function WorkSamples() {
     return (
         <div id="workSamples" className=' relative w-full h-fit py-10'>
-            <div className='md:flex grid grid-cols-1 px-4 items-center  '>
+            <div className='md:flex grid grid-cols-1 md:px-4 items-center  '>
                 <div  className=''>
                   <SvgFive/>
                 </div>
