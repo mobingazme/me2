@@ -30,7 +30,7 @@ function Header() {
       <div className='absolute top-56   md:top-32 md:right-5 z-10'>
         <WelcomSvg />
       </div>
-      <div className={` flex items-center justify-between  md:p-10 w-full md:w-[1000px] transition-colors md:mx-28 h-16 p-5 z-50  ${isVisible ? 'backdrop-blur-sm bg-[#0000006] p-5 mx-1 rounded-md overflow-hidden fixed top-6  animate__animated animate__zoomInUp ' : 'animate__fadeInDown animate__animated'}`}>
+      <div className={` flex items-center justify-between  md:p-10 w-full md:w-[1000px] transition-colors md:mx-28 h-16 p-5 z-50  ${isVisible ? 'backdrop-blur-sm bg-[#0000006]  mx-2 rounded-md  fixed mt-10  animate__animated animate__zoomInUp ' : 'animate__fadeInDown animate__animated'}`}>
         <Image className='animate__animated animate__fadeInDown animate__delay-2s' width={100} height={80} alt='logo' src='/images/logo-header.svg' />
         <div className='  hidden md:flex justify-between items-center  animate__animated animate__fadeInUp animate__delay-2s'>
           <Link activeClass="active" to="abute" spy={true} smooth={true} offset={-70} duration={700}>
