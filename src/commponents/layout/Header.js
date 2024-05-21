@@ -50,7 +50,7 @@ function Header() {
           <DownlodButton />
         </div>
       </div>  
-      <div  id='1' className='absolute top-0 md:top-5 left-0  '>
+      <div  id='1' className='absolute top-0 md:top-5 md:left-0  '>
         <ThreeDMoon />
       </div>
     </div>
