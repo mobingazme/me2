@@ -203,7 +203,7 @@ const Sliderleft = ({ direction }) => {
         >
 
             {data.map((item) => (
-                <SwiperSlide data-aos="flip-up" className='my-6' key={item.id}>
+                <SwiperSlide data-aos="flip-up" className='my-6 ' key={item.id}>
                     <div className=" bg-gradient-to-r hover:bg-gradient-to-l from-[#10509f]  duration-700 via-[#cf6dd8] to-[#ec82bc]  ease-in border animate-transition-all transform hover:translate-y-[-10px] cursor-pointer flex flex-col justify-center items-center  rounded-full w-24 h-24">
                         <Icon className='w-12 text-white h-12' icon={item.icon} />
                         <h2 className='mt-1 text-white text-sm '>{item.title}</h2>
@@ -219,7 +219,7 @@ const Sliderleft = ({ direction }) => {
 const SkillSlider = () => {
 
     return (
-        <div className='md:my-10 my-4 px-1 md:px-10 '>
+        <div className='md:my-10 my-4 px-1 md:px-10  '>
             <SliderRight />
             <Sliderleft />
         </div>

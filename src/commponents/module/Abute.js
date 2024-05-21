@@ -9,7 +9,7 @@ import './../styles/textGradient.css'
 function Abute() {
     return (
         <div id="abute" className=' w-full  flex items-center  md:px-20 py-40 relative'>
-            <div  className='  backdrop-blur-sm bg-[#0000006] grid grid-cols-1 md:flex  items-center justify-center w-full h-fit md:h-80 '>
+            <div className='  backdrop-blur-sm bg-[#0000006] grid grid-cols-1 md:flex  items-center justify-center w-full h-fit md:h-80 '>
                 <div data-aos="zoom-in" data-aos-duration="1500" className='p-5'>
                     <Image className=' px-20 md:px-0 md:w-60  h-fit runded-full' width={600} height={600} alt='logo' src='/images/IMG_9793.png' />
                 </div>
@@ -24,7 +24,7 @@ function Abute() {
                         <Link href={'https://wa.me/989033695751'}>
                             <div className=" bg-gradient-to-r hover:bg-gradient-to-l  transition-all duration-700 ease-in-out  from-[#10509f]   via-[#cf6dd8] to-[#ec82bc]  border animate-transition-all transform  cursor-pointer flex  justify-center items-center p-2 rounded-lg w-26 h-10">
                                 <h4 className='z-10 text-white  md:text-sm px-2'>whatsapp</h4>
-                                <Icon className='w-8 md:w-6 h-fit text-white z-10' icon="ic:baseline-whatsapp" />
+                                <Icon className='w-8 md:w-6 h-fit text-white flex hover:hidden z-10' icon="ic:baseline-whatsapp" />
                             </div>
                         </Link>
                         <Link href={'https://www.linkedin.com/in/mobin-gazmeh'}>
