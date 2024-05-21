@@ -4,12 +4,15 @@ import { Icon } from '@iconify/react';
 import Link from 'next/link';
 import 'animate.css';
 import './../styles/gradientAnimation.css'
+import SvgFooterOne from '../lottie/lottieFooterOne';
 
 
 function Footer() {
   return (
-    <div className="footer  text-center   p-5 my-32 md:my-0 w-full h-fit md:p-20 -z-10 grid grid-cols-1 md:flex md:justify-center max-w-8xl items-center  shadow-lg "   >
-      
+    <div className="footer  text-center relative  p-5 my-40 md:my-0 w-full h-fit md:p-20 -z-10 grid grid-cols-1 md:flex md:justify-center max-w-8xl items-center  shadow-lg "   >
+      <div className='absolute -top-60 md:-top-40 md:left-20'>
+        <SvgFooterOne/>
+      </div>
       <div className='   backdrop-blur-sm bg-[#0000006] mb-10 flex flex-col w-fit h-fit items-center justify-center p-1 md:p-10 '>
         <div className=''>
           <div data-aos="zoom-in-letf" data-aos-duration="1000" data-aos-easing="ease-in-sine" className=' text-gradient-animation flex justify-between w-fit items-center  '>
@@ -54,7 +57,7 @@ function Footer() {
           </Link>
         </div>
       </div>
-
+     
     </div>
   )
 }
