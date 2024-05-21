@@ -4,7 +4,7 @@ import animationData from '/public/animation/welcom.json'; // مسیر فایل 
 //
 const WelcomSvg = () => {
   return (
-    <div className=' p-1 w-[200px] h-[200px] ' >
+    <div className=' p-1 w-[170px] h-[170px] md:w-[200px] md:h-[200px] ' >
       <Lottie animationData={animationData} />
     </div>
   );
