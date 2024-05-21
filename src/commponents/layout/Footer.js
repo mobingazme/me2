@@ -4,13 +4,16 @@ import { Icon } from '@iconify/react';
 import Link from 'next/link';
 import 'animate.css';
 import './../styles/gradientAnimation.css'
+import ThreeDMeteorite from '../3DModels/ThreeDMeteorite';
 
 
 function Footer() {
   return (
-    <div className="footer  text-center mr-2  p-5 my-32 md:my-0 w-full h-fit md:p-20-z-10  flex md:justify-center max-w-8xl items-center  shadow-lg "   >
-
-      <div className='   backdrop-blur-sm bg-[#0000006]  flex flex-col w-fit h-fit items-center justify-center p-1 md:p-10 '>
+    <div className="footer relative text-center   p-5 my-32 md:my-0 w-full h-fit md:p-20-z-10 grid grid-cols-1 md:flex md:justify-center max-w-8xl items-center  shadow-lg "   >
+      <div className='absolute -top-40 left-5'>
+        <ThreeDMeteorite />
+      </div>
+      <div className='   backdrop-blur-sm bg-[#0000006] mb-10 flex flex-col w-fit h-fit items-center justify-center p-1 md:p-10 '>
         <div className=''>
           <div data-aos="zoom-in-letf" data-aos-duration="1000" data-aos-easing="ease-in-sine" className=' text-gradient-animation flex justify-between w-fit items-center  '>
             <Icon className=' w-8 h-fit mx-1  bg-gradient-to-r from-[#10509f] rounded-full  via-[#cf6dd8] to-[#ec82bc] p-1' icon="material-symbols:call-sharp" />
@@ -54,7 +57,7 @@ function Footer() {
           </Link>
         </div>
       </div>
-    
+
     </div>
   )
 }

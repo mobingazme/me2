@@ -41,7 +41,7 @@ const ThreeDMoon = () => {
         '/3DModels/the_moon/scene.gltf',
         function (gltf) {
           const model = gltf.scene;
-          model.scale.set(1.5, 1.6, 1.6);
+          model.scale.set(1.5, 1.5, 1.5);
           scene.add(model);
         },
         undefined,
