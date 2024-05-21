@@ -41,7 +41,7 @@ const ThreeDMoon = () => {
         '/3DModels/the_moon/scene.gltf',
         function (gltf) {
           const model = gltf.scene;
-          model.scale.set(1.5, 1.5, 1.5);
+          model.scale.set(1.4, 1.5, 1.5);
           scene.add(model);
         },
         undefined,
@@ -82,7 +82,7 @@ const ThreeDMoon = () => {
     };
   }, []);
 
-  return <div ref={containerRef} className=' w-[310px] h-[360px]  md:w-[450px] md:h-[450px] overflow-hidden cursor-pointer'  />;
+  return <div ref={containerRef} className=' w-[300px] h-[360px]  md:w-[450px] md:h-[450px] overflow-hidden cursor-pointer'  />;
 };
 
 export default ThreeDMoon;
