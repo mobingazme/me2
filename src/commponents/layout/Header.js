@@ -30,8 +30,8 @@ function Header() {
       <div className='absolute top-56   md:top-32 md:right-5 z-10'>
         <WelcomSvg />
       </div>
-      <div className={` flex items-center justify-between p-5 md:p-10 w-full md:w-[1000px] transition-colors md:mx-28 h-16  z-50  ${isVisible ? 'backdrop-blur-sm bg-[#0000006]  rounded-md overflow-hidden fixed top-8  animate__animated animate__zoomInUp ' : 'animate__fadeInDown animate__animated'}`}>
-        <Image className='animate__animated animate__fadeInRight animate__delay-2s' width={100} height={80} alt='logo' src='/images/logo-header.svg' />
+      <div className={` flex items-center justify-between  md:p-10 w-full md:w-[1000px] transition-colors md:mx-28 h-16 p-5 z-50  ${isVisible ? 'backdrop-blur-sm bg-[#0000006] p-5  rounded-md overflow-hidden fixed top-8  animate__animated animate__zoomInUp ' : 'animate__fadeInDown animate__animated'}`}>
+        <Image className='animate__animated animate__fadeInDown animate__delay-2s' width={100} height={80} alt='logo' src='/images/logo-header.svg' />
         <div className='  hidden md:flex justify-between items-center  animate__animated animate__fadeInUp animate__delay-2s'>
           <Link activeClass="active" to="abute" spy={true} smooth={true} offset={-70} duration={700}>
             <h2 className=" text-white text-gradient-animation duration-700 ease-in transition-all rounded-md w-fit text-center cursor-pointer transform hover:text-lg p-1">درباره من</h2>
@@ -46,7 +46,7 @@ function Header() {
             <h2 className='text-white text-gradient-animation duration-700 ease-in transition-all rounded-md w-fit text-center hover:backdrop-blur-lg cursor-pointer transform hover:text-lg p-1 mx-2'>ارتباط بامن</h2>
           </Link>
         </div>
-        <div className=' animate__animated animate__fadeInLeft animate__delay-2s'>
+        <div className=' animate__animated animate__fadeInDown animate__delay-2s'>
           <DownlodButton />
         </div>
       </div>

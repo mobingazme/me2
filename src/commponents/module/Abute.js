@@ -10,7 +10,7 @@ function Abute() {
     return (
         <div id="abute" className=' w-full  flex items-center  md:px-20 py-40 relative'>
             <div className='  backdrop-blur-sm bg-[#0000006] grid grid-cols-1 md:flex  items-center justify-center w-full h-fit md:h-80 '>
-                <div data-aos="zoom-in" data-aos-duration="1500" className='p-5'>
+                <div data-aos="fade-up" data-aos-duration="1500" className='p-5'>
                     <Image className=' px-20 md:px-0 md:w-60  h-fit runded-full' width={600} height={600} alt='logo' src='/images/IMG_9793.png' />
                 </div>
                 <div className=' p-4'>
