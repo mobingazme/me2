@@ -20,32 +20,32 @@ function Abute() {
                         و <span className=' text-gradient-animation  duration-700 ease-in text-white transition-all transform md:hover:text-lg font-bold cursor-pointer' > <Link href='https://botostart.ir'> botostart </Link></span> بوده و همچنین از مستندات تخصصی و ویدیوهای آموزشی یوتوب برای پیشبرد دانش خود استفاده کرده‌ام.</p>
                     <p data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-sine" className=' text-center md:text-start text-white'>از پروژه‌ها و تجربیات برنامه‌نویسی خودم به عنوان ابزاری برای تقویت مهارت‌هایم استفاده می‌کنم و همواره در جستجوی یادگیری و پیشرفت هستم.</p>
 
-                    <div data-aos="flip-up" data-aos-duration="2000" data-aos-easing="ease-in-sine" className=' grid grid-cols-1 md:flex justify-center mt-5 p-5'>
-                        <Link href={'https://wa.me/989033695751'}>
+                    <div className=' grid grid-cols-1 md:flex justify-center mt-5 p-5'>
+                        <Link data-aos="flip-up" data-aos-duration="2000" data-aos-easing="ease-in-sine" href={'https://wa.me/989033695751'}>
                             <div className=" bg-gradient-to-r hover:bg-gradient-to-l  transition-all duration-700 ease-in-out  from-[#10509f]   via-[#cf6dd8] to-[#ec82bc]  border animate-transition-all transform  cursor-pointer flex  justify-center items-center p-2 rounded-lg w-26 h-10">
                                 <h4 className='z-10 text-white  md:text-sm px-2'>whatsapp</h4>
                                 <Icon className='w-8 md:w-6 h-fit text-white flex hover:hidden z-10' icon="ic:baseline-whatsapp" />
                             </div>
                         </Link>
-                        <Link href={'https://www.linkedin.com/in/mobin-gazmeh'}>
+                        <Link data-aos="flip-up" data-aos-duration="2000" data-aos-easing="ease-in-sine" href={'https://www.linkedin.com/in/mobin-gazmeh'}>
                             <div className=" bg-gradient-to-r hover:bg-gradient-to-l  transition-all duration-700 ease-in-out  from-[#10509f]   via-[#cf6dd8] to-[#ec82bc]  border animate-transition-all transform  cursor-pointer flex  justify-center items-center p-2 rounded-lg w-26 h-10 mx-0 md:mx-3 my-3 md:my-0">
                                 <h4 className='z-10 text-white  md:text-sm px-2'>linkedin</h4>
                                 <Icon className='w-8 md:w-6 h-fit text-white z-10' icon="brandico:linkedin-rect" />
                             </div>
                         </Link>
-                        <Link href={'https://www.instagram.com/_mobingm'}>
+                        <Link data-aos="flip-up" data-aos-duration="2000" data-aos-easing="ease-in-sine" href={'https://www.instagram.com/_mobingm'}>
                             <div className=" bg-gradient-to-r hover:bg-gradient-to-l  transition-all duration-700 ease-in-out  from-[#10509f]   via-[#cf6dd8] to-[#ec82bc]  border animate-transition-all transform  cursor-pointer flex  justify-center items-center p-2 rounded-lg w-26 h-10">
                                 <h4 className=' text-white md:text-sm px-2'>instagram</h4>
                                 <Icon className='w-8 md:w-6 h-fit text-white ' icon="teenyicons:instagram-outline" />
                             </div>
                         </Link>
-                        <Link href={'https://t.me/Mobin_gazmeh'}>
+                        <Link data-aos="flip-up" data-aos-duration="2000" data-aos-easing="ease-in-sine" href={'https://t.me/Mobin_gazmeh'}>
                             <div className=" bg-gradient-to-r hover:bg-gradient-to-l  transition-all duration-700 ease-in-out  from-[#10509f]   via-[#cf6dd8] to-[#ec82bc]  border animate-transition-all transform  cursor-pointer flex  justify-center items-center p-2 rounded-lg w-26 h-10 mx-0 md:mx-3 my-3 md:my-0">
                                 <h4 className='z-10 text-white text-sm px-2'>telegram</h4>
                                 <Icon className='w-8 md:w-6 h-fit text-white z-10' icon="bi:telegram" />
                             </div>
                         </Link>
-                        <Link href={'https://github.com/mobingazme'}>
+                        <Link data-aos="flip-up" data-aos-duration="2000" data-aos-easing="ease-in-sine" href={'https://github.com/mobingazme'}>
                             <div className=" bg-gradient-to-r hover:bg-gradient-to-l  transition-all duration-700 ease-in-out  from-[#10509f]   via-[#cf6dd8] to-[#ec82bc]  border animate-transition-all transform  cursor-pointer flex  justify-center items-center p-2 rounded-lg w-26 h-10">
                                 <h4 className='z-10 text-white  md:text-sm px-2'>github</h4>
                                 <Icon className='w-8 md:w-6 h-fit text-white z-10' icon="bi:github" />
