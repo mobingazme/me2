@@ -82,7 +82,7 @@ const ThreeDMoon = () => {
     };
   }, []);
 
-  return <div ref={containerRef} className=' w-fit h-[360px]  md:w-[450px] md:h-[450px] overflow-hidden cursor-pointer'  />;
+  return <div ref={containerRef} className=' w-[320px] h-[360px]  md:w-[450px] md:h-[450px] overflow-hidden cursor-pointer'  />;
 };
 
 export default ThreeDMoon;
