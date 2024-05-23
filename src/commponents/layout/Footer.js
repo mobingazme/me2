@@ -32,27 +32,27 @@ function Footer() {
         <div id="footer" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-sine" className='flex justify-around  mt-10'>
           <Link href={'https://wa.me/989033695751'}>
             <div className='w-12 h-12 flex items-center justify-center cursor-pointer  ease-in transition-all transform hover:translate-y-[10px]  bg-gradient-to-r hover:bg-gradient-to-l   duration-700   from-[#10509f] rounded-full  via-[#cf6dd8] to-[#ec82bc] p-1 delay-100'>
-              <Icon className='w-8 h-fit ' icon="ic:baseline-whatsapp" />
+              <Icon className='w-8 h-fit text-white' icon="ic:baseline-whatsapp" />
             </div>
           </Link>
           <Link href={'https://www.linkedin.com/in/mobin-gazmeh'}>
             <div className='w-12 h-12 flex items-center justify-center cursor-pointer  ease-in transition-all transform hover:translate-y-[10px]  bg-gradient-to-r hover:bg-gradient-to-l   duration-700   from-[#10509f] rounded-full  via-[#cf6dd8] to-[#ec82bc] p-1 delay-100 mx-2'>
-              <Icon className='w-8 h-fit ' icon="brandico:linkedin-rect" />
+              <Icon className='w-8 h-fit text-white' icon="brandico:linkedin-rect" />
             </div>
           </Link>
           <Link href={'https://www.instagram.com/_mobingm'}>
             <div className='w-12 h-12 flex items-center justify-center cursor-pointer  ease-in transition-all transform hover:translate-y-[10px]  bg-gradient-to-r hover:bg-gradient-to-l   duration-700   from-[#10509f] rounded-full  via-[#cf6dd8] to-[#ec82bc] p-1 delay-100'>
-              <Icon className='w-8 h-fit ' icon="teenyicons:instagram-outline" />
+              <Icon className='w-8 h-fit text-white' icon="teenyicons:instagram-outline" />
             </div>
           </Link>
           <Link href={'https://t.me/Mobin_gazmeh'}>
             <div className='w-12 h-12 flex items-center justify-center cursor-pointer  ease-in transition-all transform hover:translate-y-[10px]  bg-gradient-to-r hover:bg-gradient-to-l   duration-700   from-[#10509f] rounded-full  via-[#cf6dd8] to-[#ec82bc] p-1 delay-100 mx-2'>
-              <Icon className='w-8 h-fit ' icon="bi:telegram" />
+              <Icon className='w-8 h-fit text-white' icon="bi:telegram" />
             </div>
           </Link>
           <Link href={'https://github.com/mobingazme'}>
             <div className='w-12 h-12 flex items-center justify-center cursor-pointer  ease-in transition-all transform hover:translate-y-[10px]  bg-gradient-to-r hover:bg-gradient-to-l   duration-700   from-[#10509f] rounded-full  via-[#cf6dd8] to-[#ec82bc] p-1 delay-100'>
-              <Icon className='w-8 h-fit ' icon="bi:github" />
+              <Icon className='w-8 h-fit text-white' icon="bi:github" />
             </div>
           </Link>
         </div>
